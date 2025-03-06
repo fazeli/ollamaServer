@@ -1,10 +1,11 @@
+
 # Ollama Server
 
 ## Overview
 
 Ollama Server is a project designed to provide a robust and scalable server environment for various applications. This project uses Python 3.12 and a virtual environment to manage dependencies.
 
-Using Ollama you can run your LLM models locally so you don't have to pay to use the models for developement. Supported local LLMs are here:
+Using Ollama you can run your LLM models locally so you don't have to pay to use the models for development. Supported local LLMs are here:
 https://github.com/ollama/ollama/blob/main/README.md#quickstart
 
 ## Setup
@@ -17,7 +18,7 @@ To set up the project, follow these steps:
      - on Windows: python -m venv openai-api
      - on Mac: source openai-env/bin/activate
    -
-3. Activate the virtaul environment by following these steps while you are at your terminal:
+3. Activate the virtual environment by following these steps while you are at your terminal:
 
    - on Windows: openai-env\Scripts\activate.bat
    - on Mac: source openai-env/bin/activate
@@ -29,12 +30,12 @@ To set up the project, follow these steps:
 
 1. To run Ollama, while at your terminal on the same path run:
    ollama serve
-2. Open another termianl and then run: For reuirements of your phisycal machine requirements check Ollama's page before choosing a model
+2. Open another terminal and then run: For requirements of your physical machine requirements check Ollama's page before choosing a model
    ollama run <The model that you intend to use> e.g. ollama run llama3.2:1b
-3. To run the server, in another termianl then type command:
+3. To run the server, in another terminal then type command:
    python server.py
 
-4. Testing if everything is OK! Once the above steps are done successfully, you can test to make sure the endpints are working:
+4. Testing if everything is OK! Once the above steps are done successfully, you can test to make sure the endpoints are working:
 
    - on Windows: Either use postman or run the this command in Git Bash
      curl -X POST http://localhost:3000/api/chat \
@@ -44,9 +45,9 @@ To set up the project, follow these steps:
 
 5. Now that your endpoint is running you can have your client app to use the api endpoint to use your model locally.
 
-## Project strusture
+## Project structure
 
-Your project strusture after installing dpendencies should look like this:
+Your project structure after installing dependencies should look like this:
 
 --Project
 -openai-api
