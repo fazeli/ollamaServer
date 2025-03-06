@@ -56,6 +56,10 @@ Your project structure after installing dependencies should look like this:
 -requirements
 -server.py
 
+## Sample test application 
+Once you have your local Ollama model up and running, you can use the sample app I developed here to test the model and your setup:
+https://github.com/fazeli/chatbot-app
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request.
